@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to FoodApp</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(45deg, #FFE580, #90EE90);
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 400px;
+        }
+        h2 {
+            color: #50C878;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #50C878;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin: 10px 0;
+            width: 100%;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #3AA66B;
+            transform: scale(1.05);
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to FoodApp</h2>
+        <div class="button-container">
+            <button onclick="window.location.href='register.html'">Register</button>
+            <button onclick="window.location.href='login.html'">Login</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 FoodApp. All rights reserved.</p>
+        <p><a href="adminlogin.jsp" style="color: #50C878; font-weight: bold;">Admin Login</a></p>
+    </footer>
+</body>
+</html>
